@@ -1,3 +1,12 @@
+
+const musicCard=document.getElementById('music-card');
+const flipBtn=document.getElementById('flip-button');
+const showNowBtn=document.getElementById('show-now-button');
+const toggleTheme=document.getElementById('toggle-theme');
+const playBtn=document.getElementById('play-button');
+const previousBtn=document.getElementById('prev-button');
+const nextBtn=document.getElementById('next-button');
+const progressTracker=document.getElementById('progress-tracker');
 const progress=document.getElementById('progress');
 const volumeSlider=document.getElementById('volume-slider');
 const volumeProgress=document.getElementById('volume-progress');
@@ -32,4 +41,11 @@ const songs=[
         duration: "3:20",
         favorite:"false"
     },
+    {title:"Save Your Tears",
+        artist:"The Weeknd",
+        cover:"https://unsplash.com/photos/turned-on-electronic-keyboard-c-NBiJrhwdM",
+        audio:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        duration: "3:35",
+        favorite:"true"
+    }
 ] 
